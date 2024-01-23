@@ -50,7 +50,7 @@ public class WeatherModeling {
         System.out.println("Step 3: Read from a File for Weather Modeling");
         System.out.printf("At time %.2f, the estimated temperature is %.2f degrees.\n", time, weatherModel(a,b,c,time));
 
-        
+        scanner.close();
 
 
     }
